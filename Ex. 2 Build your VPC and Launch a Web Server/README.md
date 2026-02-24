@@ -120,8 +120,6 @@ verified through the public IP address of the instance via a web browser.
 
 ---
 
-
-
 <img width="598" height="552" alt="l24" src="https://github.com/user-attachments/assets/8ea79586-407f-477d-b0c0-db05d5dd3112" />
 
 
