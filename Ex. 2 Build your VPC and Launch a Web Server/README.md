@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: Sachin S
+* **Register Number**: 212224040283
+* **Date of Submission**: 24-2-26
 
 ---
 
@@ -87,33 +87,43 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
-
+1. A Virtual Private Cloud (VPC) was designed and created with the CIDR block 10.0.0.0/16 to establish a secure and isolated network
+environment within AWS.
+2. A public subnet was configured within the VPC with the CIDR range 10.0.1.0/24, and auto-assign public IPv4 addresses was enabled to allow
+internet connectivity for instances.
+3. An Internet Gateway was created and attached to the VPC, followed by the setup of a route table with a default route (0.0.0.0/0) pointing to
+the gateway, and the route table was associated with the public subnet.
+4. A security group was established to permit inbound SSH (port 22) and HTTP (port 80) traffic, and an EC2 instance was launched using the
+Amazon Linux 2 AMI, associated with the security group and a key pair.
+5. The Apache HTTPD web server was installed and started on the EC2 instance, a simple HTML webpage was created, and its accessibility was
+verified through the public IP address of the instance via a web browser.
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1918" height="826" alt="l21" src="https://github.com/user-attachments/assets/12aeca72-76c5-40e4-b9c8-5a72e9b6dadc" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1918" height="826" alt="l22" src="https://github.com/user-attachments/assets/d9680130-758c-4a28-a1da-04e294658ee3" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
+<img width="1918" height="866" alt="l23" src="https://github.com/user-attachments/assets/d3dd7ad7-fb82-4b8c-af1a-c9f314748f58" />
+<img width="1918" height="867" alt="lab2 3" src="https://github.com/user-attachments/assets/3a789ad4-cb7d-47aa-a256-ef1a44fef43c" />
 
-(Insert Screenshot Here)
 
 ---
+
+
+
+<img width="598" height="552" alt="l24" src="https://github.com/user-attachments/assets/8ea79586-407f-477d-b0c0-db05d5dd3112" />
+
 
 ## Result 
 
